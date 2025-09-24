@@ -200,11 +200,11 @@ export default function TodoList() {
               <div className="flex items-center gap-2">
                 <button
                   className="
-                    bg-rose-500 text-white h-9 px-3 rounded-lg font-semibold
-                    hover:bg-rose-400 active:bg-rose-600
+                    bg-[#ef8354] text-white h-9 px-3 rounded-lg font-semibold
+                    hover:bg-[#ffa882] active:bg-[#fc966b]
                     transition-all duration-200 ease-out
                     hover:scale-[1.02] active:scale-95
-                    focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-400/70
+                    focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ef8354]/60
                   "
                   onClick={() => deleteTask(index)}
                   aria-label="Delete task"
@@ -215,11 +215,11 @@ export default function TodoList() {
 
                 <button
                   className="
-                    bg-sky-500 text-white h-9 w-10 rounded-md font-bold
-                    hover:bg-sky-400 active:bg-sky-600
+                    bg-[#ffffff] text-white h-9 w-10 rounded-md font-bold
+                    hover:bg-[#a8a8a8] active:bg-[#ffffff]
                     transition-all duration-200 ease-out
                     hover:scale-[1.02] active:scale-95
-                    focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-400/70
+                    focus:outline-none focus-visible:ring-2 focus-visible:ring-[#a8a8a8]/60
                   "
                   onClick={() => moveTaskUp(index)}
                   aria-label="Move up"
@@ -230,11 +230,11 @@ export default function TodoList() {
 
                 <button
                   className="
-                    bg-zinc-700 text-white h-9 w-10 rounded-md font-bold
-                    hover:bg-zinc-600 active:bg-zinc-800
+                    bg-[#bfc0c0] text-white h-9 w-10 rounded-md font-bold
+                    hover:bg-[#f1f3f3] active:bg-[#8d8e8e]
                     transition-all duration-200 ease-out
                     hover:scale-[1.02] active:scale-95
-                    focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400/70
+                    focus:outline-none focus-visible:ring-2 focus-visible:ring-[#bfc0c0]/60
                   "
                   onClick={() => moveTaskDown(index)}
                   aria-label="Move down"
