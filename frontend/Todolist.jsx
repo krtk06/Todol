@@ -127,7 +127,7 @@ export default function TodoList() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-zinc-950 text-zinc-100 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-zinc-950 text-zinc-100 px-4 w-screen">
       <div
         className="
           w-full max-w-[640px]
