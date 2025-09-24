@@ -143,7 +143,6 @@ export default function TodoList() {
         <h1 className="text-center text-5xl font-semibold tracking-tight text-zinc-100 pt-6 pb-2">
           To-Do List
         </h1>
-        <p className="text-center text-sm text-zinc-400 pb-4">Stay organized, minimally.</p>
 
         <div className="flex items-center gap-2 px-5 pb-5">
           <input
@@ -186,7 +185,7 @@ export default function TodoList() {
               key={index}
               className="
                 group w-full max-w-[560px]
-                rounded-xl bg-zinc-100 text-zinc-900
+                rounded-xl bg-[#313131] text-zinc-300
                 shadow-sm ring-1 ring-zinc-200
                 px-4 py-3
                 flex items-center justify-between gap-3
